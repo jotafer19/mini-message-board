@@ -1,0 +1,28 @@
+.messages-container, 
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.message {
+    width: 500px;
+    padding: .5rem;
+    border: 1px solid black;
+}
+
+.message .text {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.form textarea,
+.form input {
+    width: 300px;
+}
+
+.form textarea {
+    height: 100px;
+}
