@@ -19,4 +19,4 @@ app.use(express.static(assetsPath));
 app.use("/", indexRouter);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`App listening at port ${PORT}.`));
+app.listen(PORT, "0.0.0.0", () => console.log(`App listening at port ${PORT}.`));
