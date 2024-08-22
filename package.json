@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "populatedb": "node db/populatedb.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "uuid": "^10.0.0",
-    "express": "^4.17.1"
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "pg": "^8.12.0",
+    "uuid": "^10.0.0"
   }
 }

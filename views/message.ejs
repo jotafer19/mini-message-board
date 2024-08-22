@@ -9,8 +9,8 @@
     <h1>Message details</h1>
     <div>
         <p><%= message.text %></p>
-        <p>By: <%= message.user %></p>
-        <p>Date: <%= message.added %></p>
+        <p>By: <%= message.username %></p>
+        <p>Date: <%= message.date.toISOString().split("T")[0] %></p>
     </div>
     <a href="/"><button>Go back</button></a>
 </body>
